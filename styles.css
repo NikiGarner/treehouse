@@ -83,12 +83,31 @@ p,h2 {
   color: #7B8B8E;
 }
 
+p img {
+  float: left;
+  padding: 5px;
+}
+
+#circle {
+padding-top: 15px;
+}
+
 .classid {
+  float: left;
   display: inline;
   border: 2px solid #7B8B8E;
   border-radius: 20px;
   padding: 5px;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
+}
+
+.playid {
+  float: right;
+  display: inline;
+  border: 2px solid #7B8B8E;
+  border-radius: 80%;
+  /*padding: 5px;*/
+  margin-bottom: 20px;
 }
 /*.timeLine {
   width: 45%;
