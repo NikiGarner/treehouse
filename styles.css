@@ -1,0 +1,146 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #edeff0;
+  font-family: sans-serif;
+}
+
+.header {
+  padding: 20px 40px;
+}
+
+.nav li a{
+  display: inline;
+  float: right;
+  margin: 20px;
+  padding: -10px;
+  margin-top: -30px;
+  text-decoration: none;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 5px 30px;
+  background: #edeff0;
+  -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+  -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+  box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+
+
+.wrap {
+  width: 900px;
+  margin: 0 auto;
+  background: #edeff0;
+}
+
+.java {
+  text-align: center;
+  float:left;
+  background: white;
+  overflow: hidden;
+  width: 45%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.django {
+  text-align: center;
+  float:right;
+  background: white;
+  overflow: hidden;
+  width: 45%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.wooCommerce {
+  text-align: center;
+  float:left;
+  background: white;
+  overflow: hidden;
+  width: 45%;
+  height: 100%;
+}
+
+.javafx {
+  text-align: center;
+  float:right;
+  background: white;
+  overflow: hidden;
+  width: 45%;
+  height: 100%;
+
+}
+
+p,h2,h3 {
+  margin-left: 5%;
+  text-align: center;
+}
+
+p,h2 {
+  color: #7B8B8E;
+}
+
+.classid {
+  display: inline;
+  border: 2px solid #7B8B8E;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 200px;
+}
+/*.timeLine {
+  width: 45%;
+  height: 40px;
+  border-radius: 4%;
+}*/
+
+.description {
+
+  background-color: white;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.java p:nth-child(1) {
+  text-align: right;
+  background-color: #2C9676;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  color: white;
+}
+
+.django p:nth-child(1) {
+  text-align: right;
+  background-color: #F092B0;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  color: white;
+}
+
+.wooCommerce p:nth-child(1) {
+  text-align: right;
+  background-color: #838CC7;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  color: white;
+}
+
+.javafx p:nth-child(1) {
+  text-align: right;
+  background-color: #2C9676;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  color: white;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
